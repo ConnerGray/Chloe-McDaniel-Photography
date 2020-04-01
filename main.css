@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -151,9 +151,50 @@ header .logo img {
     margin-bottom: 40px;
 }
 
+/* Contact */
+.contact-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url(pics/nature.jpeg);
+    background-position:center;
+	background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.contact h1 {
+    color: whitesmoke;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.contact p{
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.contact-icons {
+    align-items: center;
+    margin-top: 15px;
+}
+
+.contact-icons a {
+    text-decoration: none;
+}
+    
+.contact-icons img {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 /* Footer */
 footer {
     align-items: center;
+    justify-content: center;
     text-align: center;
     background-color: #C0C0C0;
     padding-top: 20px;
@@ -161,12 +202,13 @@ footer {
 }
 
 .container h1 {
-    color: white;    
+    color: #7f78d2;    
 }
 
 .social-links-container {
     display: flex;
     justify-content: center;
+    padding-bottom: 5px;
 }
 
 .social-links {
@@ -175,7 +217,8 @@ footer {
 
 .social-links li {
     list-style: none; 
-    margin-right: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
     font-size: 14px;
 }
 
@@ -183,7 +226,16 @@ footer {
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 3px;
-    color: #7f78d2;
+    color: white;
+}
+
+.email {
+    text-align: center;
+}
+
+h2 {
+    color:#7f78d2;
+    font-size: 14px;
 }
 
 /* Media Queries */
