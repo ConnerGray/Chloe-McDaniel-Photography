@@ -131,21 +131,21 @@ header .logo img {
     margin-top: 40px;
 }
 
-.portfolio1, .portfolio2, .portfolio3, .portfolio4 {
+.portfolio1, .portfolio2, .portfolio3, .portfolio4, .portfolio5, .portfolio6 {
     display: flex;
     justify-content: space-around;
 }
 
-.portfolio2, .portfolio3, .portfolio4 {
+.portfolio2, .portfolio3, .portfolio4, .portfolio5, .portfolio6 {
     padding-top: 40px;
 }
 
-.portfolio1 img, .portfolio3 img {
+.portfolio1 img, .portfolio3 img, .portfolio5 img {
     height: 600px;
     width: 400px;
 }
 
-.portfolio4 {
+.portfolio6 {
     margin-bottom: 40px;
 }
 
@@ -221,18 +221,18 @@ footer {
         padding-bottom: 20px;
     }
 
-    .portfolio2, .portfolio3, .portfolio4 {
+    .portfolio2, .portfolio3, .portfolio4, .portfolio5, .portfolio6 {
         padding-top: 0px;
     }
 
-    .portfolio-section, .portfolio1, .portfolio2, .portfolio3, .portfolio4 {
+    .portfolio-section, .portfolio1, .portfolio2, .portfolio3, .portfolio4, .portfolio5, .portfolio6 {
         display: flex;
         flex-direction: column;
         text-align: center;
         margin: auto;
     }
 
-    .portfolio1 img, .portfolio2 img, .portfolio3 img, .portfolio4 img {
+    .portfolio1 img, .portfolio2 img, .portfolio3 img, .portfolio4 img, .portfolio5 img, .portfolio6 img {
         padding: 10px;
     }
     
