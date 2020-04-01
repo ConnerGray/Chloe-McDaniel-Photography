@@ -124,6 +124,8 @@ header .logo img {
 .about-pic img {
     height: 400px;
     width: 400;
+    border: 3px whitesmoke;
+    border-style: solid;
 }
 
 /* Portfolio */
