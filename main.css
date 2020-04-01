@@ -240,6 +240,12 @@ footer {
     .about-content {
         padding: 0px;
     }
+    header .logo h1 {
+        font-size: 40px;
+    }
+    .nav-links li {
+        font-size: 22px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
