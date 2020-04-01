@@ -285,11 +285,9 @@ h2 {
         text-align: center;
         margin: auto;
     }
-
     .portfolio1 img, .portfolio2 img, .portfolio3 img, .portfolio4 img, .portfolio5 img, .portfolio6 img {
         padding: 10px;
     }
-    
     .about-content {
         padding: 0px;
     }
@@ -305,4 +303,10 @@ h2 {
     .main-content p {
         font-size: 19px;
     }
-}
+    .contact h1 {
+        font-size: 80px;
+    }
+    .contact p {
+        font-size: 30px;
+    }
+} /* end of query */
