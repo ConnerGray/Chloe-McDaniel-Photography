@@ -196,11 +196,26 @@ footer {
     header, .main, .main-content, .about-section {
         display: flex;
         flex-direction: column;
-        margin: 0;
-        padding: 0;
         height: 100%;
         text-align: center;
     } 
+
+    .main {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .main-image {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+    .about-section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        align-items: center;
+    }
 
     .portfolio-section {
         padding-top: 20px;
@@ -221,15 +236,7 @@ footer {
     .portfolio1 img, .portfolio2 img, .portfolio3 img, .portfolio4 img {
         padding: 10px;
     }
-
-    .main-image {
-        padding-top: 20px;
-    }
-
-    .about-section {
-        padding-bottom: 10px;
-    }
-
+    
     .about-content {
         padding: 0px;
     }
