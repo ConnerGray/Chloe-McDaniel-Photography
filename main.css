@@ -165,7 +165,7 @@ header .logo img {
     justify-content: center;
     text-align: center;
     align-items: center;
-    height: 60vh;
+    height: 80vh;
     background-image: url(pics/nature.jpeg);
     background-position:center;
 	background-repeat:no-repeat;
@@ -308,6 +308,9 @@ h2 {
     }
     .main-content p {
         font-size: 19px;
+    }
+    .comtact-main {
+        height: 60vh;
     }
     .contact h1 {
         font-size: 80px;
