@@ -111,6 +111,7 @@ header .logo img {
     flex: 1;
     justify-content: center;
     padding-left: 100px;
+    width: 60%;
 }
 
 .about-pic {
@@ -118,6 +119,8 @@ header .logo img {
     justify-content: center;
     text-align: center;
     padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 .about-content h1 {
@@ -200,7 +203,7 @@ footer {
     justify-content: center;
     text-align: center;
     background-color: #C0C0C0;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
