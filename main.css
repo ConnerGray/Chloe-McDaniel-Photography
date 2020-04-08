@@ -9,6 +9,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+img {
+    
+}
+
 /* Header & Nav */
 header {
     display: flex;
@@ -105,12 +109,12 @@ header .logo img {
     background-color:#C0C0C0;
     align-items: center;
     color: white;
+    
 }
 
 .about-content {
     flex: 1;
     justify-content: center;
-    padding-left: 100px;
     width: 60%;
 }
 
@@ -258,8 +262,8 @@ h2 {
         text-align: center;
     } 
     .main-image img {
-        height: 400px;
-        width: 400px;
+        height: 350px;
+        width: 350px;
     }
     .main {
         margin-top: 40px;
