@@ -325,4 +325,7 @@ h2 {
     .contact p {
         font-size: 30px;
     }
+    footer {
+        margin-top: 20px;
+    }
 } /* end of query */
